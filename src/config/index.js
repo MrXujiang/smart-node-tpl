@@ -1,5 +1,5 @@
 export default {
   protocol: 'http:',
   host: 'localhost',
-  serverPort: 3000
+  serverPort: 3001
 }

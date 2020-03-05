@@ -3,6 +3,8 @@ import { resolve } from 'path'
 import Xoa from './lib/xoa.js'
 import config from './config'
 
+const a = "3"
+
 const app = new Xoa()
 
 app.use((req, res) => {
