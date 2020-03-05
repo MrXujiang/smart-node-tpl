@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "glob": "^7.1.4",
+    "multer": "^1.4.2",
+    "pug": "^2.0.4",
+    "puppeteer": "^1.19.0",
+    "ramda": "^0.26.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "@babel/preset-env": "^7.5.5",
+    "nodemon": "^1.19.1"
+  },
+  "scripts": {
+    "start": "export NODE_ENV=development && nodemon -w src --exec \"babel-node src\"",
+    "build": "babel src --out-dir dist",
+    "buildR": "node dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "徐小夕",
+  "license": "MIT"
+}
